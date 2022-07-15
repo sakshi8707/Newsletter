@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;486;700&display=swap'); 
+*{
+  background-color:#f8ead6 !important;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+
+.main-box{
+  max-width: 70% !important;
+  min-width: 60rem !important;
+  min-height: 15rem !important;
+  max-height: 100% !important;
+  margin: 2rem auto;
+}
+
+img{
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.918) !important;
+  /* max-width: 40%; */
+  border: 10px solid rgba(255, 255, 255, 0.918);
+  border-radius: 10px;
+}
+
+.caption-box{
+  height: 5rem ;
+  width: 18rem;
+}
+
+h3{
+  font-family: 'Dancing script';
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.main-content{
+  max-width: 60%;
+  min-height: 12rem;
+  max-height: 40%;
+  border: 10px solid rgba(255, 255, 255, 0.918);
+  background-color: rgba(255, 255, 255, 0.918) !important;  border-radius: 10px;
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom: 4.8rem !important;
+}
+
+p{
+  background-color: rgba(255, 255, 255, 0.918) !important;
+  text-align: justify;
+  font-family: 'lora';
+  line-height: 1.2;
+  font-size: 13px;
+  margin: 0;
+}
+
+@media (max-width:575px){
+  .main-box{
+    flex-direction: column;
+    min-width: 20rem !important;
+  }
+  .main-content{
+    min-width: 90%;
+    border-radius: 0;
+  }
+  img{
+    border-radius: 0;
+  }
+}
+
+@media (max-width:575px){
+  .for-reverse{
+    flex-direction: column-reverse;
+  }
+}
+
+
