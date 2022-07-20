@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;486;700&display=swap'); 
 *{
-  background-color:#f8ead6 !important;
   box-sizing: border-box;
+}
+body{
+  background-image: url(/images/bg.jpg);
   background-attachment: fixed;
 }
 
@@ -16,7 +18,7 @@
 
 img{
   padding: 5px;
-  background-color: rgba(255, 255, 255, 0.918) !important;
+  background-color: rgba(255, 255, 255, 0.918) ;
   /* max-width: 40%; */
   border: 10px solid rgba(255, 255, 255, 0.918);
   border-radius: 10px;
@@ -38,7 +40,8 @@ h3{
   min-height: 12rem;
   max-height: 40%;
   border: 10px solid rgba(255, 255, 255, 0.918);
-  background-color: rgba(255, 255, 255, 0.918) !important;  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.918) !important ;  
+  border-radius: 10px;
   border-left: 0;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -46,13 +49,26 @@ h3{
 }
 
 p{
-  background-color: rgba(255, 255, 255, 0.918) !important;
+  background-color: rgba(255, 255, 255, 0.918) ;
   text-align: justify;
   font-family: 'lora';
   line-height: 1.2;
   font-size: 13px;
   margin: 0;
 }
+
+#rocket{
+  position: absolute;
+  width: 10rem !important;
+  height: 10rem;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* #align{
+  position: absolute;
+  right: -57px;
+  bottom: -100px;
+} */
 
 @media (max-width:575px){
   .main-box{
@@ -72,6 +88,10 @@ p{
   .for-reverse{
     flex-direction: column-reverse;
   }
+  #rocket{
+    width: 100rem;
+  }
 }
+
 
 
