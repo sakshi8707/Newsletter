@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;486;700&display=swap'); 
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(Imgae/bg-img.jpg);
+  background-attachment: fixed;
+}
+
+#main-flex{
+  margin: 5rem auto;
+  max-height: 100%;
+  min-height: 35rem;
+  max-width: 80%;
+}
+
+img{
+  max-width: 15rem !important;
+  width: 15rem;
+  max-height: 15rem !important;
+  height: 15rem;
+  /* border: 5px solid grey; */
+}
+
+h3{
+  font-family: 'Dancing script';
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+p{
+  text-align: justify;
+  font-family: 'lora';
+  line-height: 1.2;
+  font-size: 15px;
+  margin: 0;
+}
+
+#img-box{
+  max-width: 100%;
+  min-width: 15rem;
+  height: 20rem;
+  margin-top: 5rem !important;
+}
+
+#content-bx{
+  background-color: rgba(255, 255, 255, 0.918) !important ;
+  max-width: 50rem;
+  /* border: 12px solid white !important; */
+}
+.Border{
+  border: 4px solid #f2a682;
+  border-style: dashed;
+  border-radius: 7px
+}
+.position{
+  font-style: sans-serif;
+  font-weight: normal;
+}
+
+
+@media (max-width:768px){
+  #main-flex{
+    flex-direction: column ;
+  }
+  #img-box{
+    justify-content: center !important;
+  }
+}
+@media (max-width:320px){
+  img{
+    max-width: 15rem !important;
+    width: 10rem;
+    max-height: 15rem !important;
+    height: 10rem;
+  }
+  #img-box{
+    max-width: 100%;
+    min-width: 10rem;
+    height: 10rem;
+  }
+}
+
