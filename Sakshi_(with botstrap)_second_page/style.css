@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url(Imgae/bg-img.jpg);
+  background-image: url(./Image/bg-img.jpg);
   background-attachment: fixed;
 }
 
@@ -13,6 +13,7 @@ body{
   max-height: 100%;
   min-height: 35rem;
   max-width: 80%;
+  margin: 4rem auto;
 }
 
 img{
@@ -38,11 +39,15 @@ p{
   margin: 0;
 }
 
-#img-box{
-  max-width: 100%;
-  min-width: 15rem;
-  height: 20rem;
-  margin-top: 5rem !important;
+.img-box{
+  max-width: 15rem;
+  /* width: 15rem; */
+  height: 22rem;
+}
+
+#caption-box{
+  min-height: 2rem ;
+  max-width:  20rem;
 }
 
 #content-bx{
@@ -63,19 +68,23 @@ p{
 
 @media (max-width:768px){
   #main-flex{
+    margin: 0rem auto;
+  }
+  #main-flex{
     flex-direction: column ;
   }
   #img-box{
     justify-content: center !important;
   }
+
 }
 @media (max-width:320px){
-  img{
+  /* img{
     max-width: 15rem !important;
     width: 10rem;
     max-height: 15rem !important;
     height: 10rem;
-  }
+  } */
   #img-box{
     max-width: 100%;
     min-width: 10rem;
