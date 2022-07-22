@@ -44,7 +44,9 @@ p{
   /* width: 15rem; */
   height: 22rem;
 }
-
+#content-bx{
+  padding-left: 0!important;
+}
 #caption-box{
   min-height: 2rem ;
   max-width:  20rem;
@@ -64,6 +66,12 @@ p{
   font-style: sans-serif;
   font-weight: normal;
 }
+p{
+  /* font-size: 20px; */
+  font-family: lora;
+  padding-left:20px;
+  color: #000000;
+}
 
 
 @media (max-width:768px){
@@ -79,16 +87,74 @@ p{
 
 }
 @media (max-width:320px){
-  /* img{
-    max-width: 15rem !important;
-    width: 10rem;
-    max-height: 15rem !important;
-    height: 10rem;
-  } */
   #img-box{
     max-width: 100%;
     min-width: 10rem;
     height: 10rem;
   }
 }
+
+@media (max-width:768px){
+  .main-box{
+    flex-direction: column;
+    min-width: 20rem !important;
+  }
+  .main-content{
+    min-width: 90%;
+    border-radius: 0;
+  }
+  img{
+    border-radius: 0;
+  }
+}
+/* ------------------------------------------------------------  */
+@media (max-width:763px){
+ #content-bx{
+   padding-left:0 !important;
+   padding-left:16px; 
+  background-color:palegreen;
+  font-size: 1.5vm;
+  width: 107%;
+ }
+}
+
+/* @media (max-width:798px)
+{
+  #content-bx{
+    background-color:aquamarine
+  }
+  p{
+    padding-left: 0!important;
+  }
+} */
+
+@media only screen and (min-width: 100px) and (max-width: 792px) {
+  #content-bx{
+    font-size: 5vm;
+    background-color: pink;
+      padding-left:0 !important;
+      padding-right:0 !important;
+      padding-right:1rem !important;
+  } 
+  .nopadding{
+    font-size: 1.5vm;
+  }
+  
+}
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+  #content-bx{
+    font-size: 1.5vm !important;
+    background-color: red;
+      padding-left:0 !important;
+      padding-right:0 !important;
+      /* width-right: 107%; */
+    } 
+    p{
+      padding-right: 8px;
+      padding-left: 8px;
+      font-size:4vm;
+  }
+ 
+}
+
 
