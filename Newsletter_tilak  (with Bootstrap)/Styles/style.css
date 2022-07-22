@@ -110,10 +110,15 @@
 
   }
 
+  @media (max-width:768px){
+    .mar-bot{
+      margin-bottom: 60px !important;
+    }
+  }
+
   @media (min-width:320px) and (max-width:500px){
     #main-flex1{
       min-width: 100% !important;
-    
     }
     #subflex1{
     min-width: 20rem;
@@ -127,6 +132,7 @@
       min-width: 10rem !important;
       background-color: rgba(255, 255, 255, 0.695) !important;
     }
+
     img{
       height: 150px !important; 
       width: 140px  !important;
