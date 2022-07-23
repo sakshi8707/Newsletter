@@ -25,23 +25,14 @@ body {
 }
 
 img {
-  background-color: rgba(255, 255, 255, 0.918) !important;
-  /* max-width: 40%; */
-  /* border: 7px solid #584e48; */
+  /* background-color: rgba(255, 255, 255, 0.918) !important; */
   height: 15rem !important;
   width: 15rem;
-  /* border: 10px solid #584e48; */
 }
+
 .flower-img {
   bottom: 5rem;
   left: 5rem !important;
-}
-
-.Flower {
-  background-color: rgba(255, 255, 255, 0.918) !important;
-  max-width: 40%;
-  height: 4rem !important;
-  width: 9rem;
 }
 
 .caption-box {
@@ -52,11 +43,7 @@ img {
 }
 
 .nopadding {
-  /* padding: 0 !important; */
-  /* margin: 0 !important; */
   padding-left: 0 !important;
-  /* padding-right:0 !important; */
-  /* padding-top: 0 !important; */
 }
 
 .image-content {
@@ -122,10 +109,6 @@ p {
   padding-left: 20px;
   color: #000000;
 }
-/* .flower-box {
-  left: 52.991rem;
-  top: 4.4rem;
-} */
 
 @media (max-width: 768px) {
   .main-box {
@@ -170,10 +153,150 @@ p {
   }
 }
 /* ----------------for Doodles-------------------------       */
+.flower-box {
+  left: 51rem;
+  top: 1rem;
+}
+.flower-box img {
+  width: 6rem;
+  height: 5.5rem !important;
+  /* background-color: white; */
+  border: none;
+}
+.flower {
+  width: 1.5rem;
+  height: 5rem;
+  background-color: transparent;
+}
+
+/* 480-460-575-768   */
 /* @media (max-width: 460px) {
   .flower-box {
+    background-color:salmon;
     left: -1.7rem;
     top: 9.4rem;
+  }
+}
+@media (max-width:480px){
+  .flower-box{
+    background-color: red;
+    left: -1.7rem;
+    top: 6rem;
+  }
+} */
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+  .main-box{
+    /* background-color:palegreen; */
+  }
+  .flower-box {
+    left: 17rem;
+    top: 1rem;
+  }
+  .flower-box img {
+    width: 4rem;
+    height: 3.5rem !important;
+    /* background-color: white; */
+    border: none;
+  }
+  .flower {
+    width: 1.5rem;
+    height: 5rem;
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 421px) {
+  .main-box{
+    background-color:palevioletred;
+  }
+  .flower-box {
+    left: 17rem;
+    top: -1rem;
+  }
+  .flower-box img {
+    width: 4rem;
+    height: 4.5rem !important;
+    /* background-color: white; */
+    border: none;
+  }
+  .flower {
+    width: 1.5rem;
+    height: 5rem;
+    background-color: transparent;
+  }
+}
+@media only screen and (min-width: 421px) and (max-width: 512px) {
+  .main-box{
+    background-color:palevioletred;
+  }
+  .flower-box {
+    left: 21rem;
+    top: -1rem;
+  }
+  .flower-box img {
+    width: 5rem;
+    height: 4.5rem !important;
+    /* background-color: white; */
+    border: none;
+  }
+  .flower {
+    width: 1.5rem;
+    height: 5rem;
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 512px) and (max-width: 758px) {
+  .main-box{
+    /* background-color:palegoldenrod; */
+  }
+  .flower-box {
+    left: 33rem;
+    top: -1rem;
+    /* background-color: red; */
+  }
+  .flower-box img {
+    /* background-color: red; */
+    width: 5rem;
+    height: 4.5rem !important;
+    /* background-color: white; */
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 800px) {
+  .main-box{
+    background-color: blue;
+  }
+  .flower-box {
+    left: 33rem;
+    top: -1rem;
+    background-color: red;
+  }
+  .flower-box img {
+    background-color: red;
+    width: 5rem;
+    height: 4.5rem !important;
+    background-color: white;
+    border: none;
+  }
+}
+/* 
+@media (max-width: 829px) {
+  .main-box{
+    background-color:blue;
+  }
+  .flower-box {
+    left: 39rem;
+    top: 0rem;
+    background-color: red;
+  }
+  .flower-box img {
+    background-color: red;
+    width: 6rem;
+    height: 4.5rem !important;
+    background-color: white;
+    border: none;
   }
 } */
 
