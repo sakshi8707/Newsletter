@@ -12,7 +12,7 @@ body{
   margin: 5rem auto;
   max-height: 100%;
   min-height: 35rem;
-  max-width: 80%;
+  max-width: 90%;
   margin: 4rem auto;
 }
 
@@ -112,49 +112,41 @@ p{
  #content-bx{
    padding-left:0 !important;
    padding-left:16px; 
-  background-color:palegreen;
-  font-size: 1.5vm;
-  width: 107%;
+  /* background-color:palegreen; */
+  /* font-size: 1.5vm; */
+  /* width: 107%; */
  }
 }
 
-/* @media (max-width:798px)
-{
-  #content-bx{
-    background-color:aquamarine
-  }
-  p{
-    padding-left: 0!important;
-  }
-} */
+
 
 @media only screen and (min-width: 100px) and (max-width: 792px) {
   #content-bx{
     font-size: 5vm;
-    background-color: pink;
+    /* background-color: pink; */
       padding-left:0 !important;
       padding-right:0 !important;
       padding-right:1rem !important;
   } 
-  .nopadding{
+  /* .nopadding{
     font-size: 1.5vm;
-  }
+  } */
   
 }
 @media only screen and (min-width: 240px) and (max-width: 320px) {
   #content-bx{
     font-size: 1.5vm !important;
-    background-color: red;
+    /* background-color: red; */
       padding-left:0 !important;
       padding-right:0 !important;
-      /* width-right: 107%; */
+      /* width: 107%; */
     } 
     p{
       padding-right: 8px;
+      /* background-color: red; */
       padding-left: 8px;
-      font-size:4vm;
+      font-size:3.4vmax;
   }
  
 }
-
 
