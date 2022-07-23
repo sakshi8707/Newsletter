@@ -1,53 +1,73 @@
 .ourservices{
-    background-image: url("images\Untitled design.jpg");
-    background-color: blanchedalmond; /* Used if the image is unavailable */
-    height: 100%; /* You must set a specified height */
-    width: 100%;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("images\Untitled design.jpg");
+  background-color: blanchedalmond; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  width: 100%;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 
-    padding-top: 5px;
-    padding-bottom: 100px;
+  padding-top: 5px;
+  padding-bottom: 100px;
 }
 .tape{
-    margin-left: 30px;
-    margin-top: -44px;
+  margin-left: 30px;
+  margin-top: -44px;
 }
 .polaroid{
-    margin-left: 35px;
-    width: 293px;
-    height: 414px;
+  margin-left: 35px;
+  width: 293px;
+  height: 414px;
 }
 .polaroid-img {
-    max-width: 100%;
-    height: 329px;
+  max-width: 100%;
+  height: 329px;
 }
 .mid-polaroid{
-    margin-top: 80px;
+  margin-top: 80px;
 }
-p, span,h4{
-    font-family: 'Dancing Script', cursive;
+p, span,h4,h5{
+  font-family: 'Dancing Script', cursive;
 }
 .row1, .row2{
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .more-txt{
-    position: relative;
-    right: -205px;
-    bottom: 175px;
-    transform: rotate(-5deg);
+  position: relative;
+  right: -205px;
+  bottom: 175px;
+  transform: rotate(-5deg);
 }
 .more-img{
-    position: relative;
-    width: 100px;
-    right: -200px;
-    bottom: 15px;
+  position: relative;
+  width: 100px;
+  right: -200px;
+  bottom: 15px;
 }
 button{
-    background: #F2A682;
+  background: #F2A682;
 
 }
-
+.book{
+  width: 1350px;
+  overflow: overlay;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.book-txt{
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  color: black;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media(min-width:300px) and (max-width:800px){
     .row1, .row2{
         display: flex;
@@ -59,9 +79,55 @@ button{
     .row2{
         padding-bottom: 80px;
     }
+    .book{
+      width: 1350px;
+      height: 2000px;
+      overflow: overlay;
+      
+      bottom: 20px;
+      left: 15%;
+      position: absolute;
+      top: 63%;
+      left: 70%;
+      right: 35%;
+      transform: translate(-50%, -50%);
+  }
+  .book-txt{
+      position: absolute;
+      right: 15%;
+      bottom: 20px;
+      left: 15%;
+      color: black;
+      top: 550px;
+      left: 60%;
+      transform: translate(-50%, -50%);
+  }
+    .rule {
+      height: 3px;
+      width:2%;
+      background: #8F4F31;
+    }
+    .rule1:before{
+      content: '';
+      height: 15px;
+      width: 15px;
+      border-radius: 10px;
+      float: right;
+      background: red;
+      margin-top: -6px;
+    }
+    .rule2:after {
+      content: '';
+      height: 15px;
+      width: 15px;
+      border-radius: 10px;
+      float: left;
+      background: #8F4F31;
+      margin-top: -6px;
+    }
 }
 
-/* Photo Gallery */
+/* CodePen-Photo Gallery */
 
 .text{
     display:flex;
@@ -185,39 +251,24 @@ button{
 	object-fit: cover;
 	transform: translate(-50%, -50%);
 }
-/* new */
-.img-gallery{
-  height: 296px;
-  width: 260px;
-  left: 96px;
-}
-.img-caption{
-  box-shadow: inset 0px -80px 0 -1px rgba(0,0,0,.42);
-  top: 175px;
+/* new team*/
+.Gallery {
+  position: relative;
+  max-width: 260px; /* Maximum width */
+  margin: 0 auto; /* Center it */
   -webkit-animation: imgGallerySlideIn .65s .15s ease forwards;
 	animation: imgGallerySlideIn .65s .15s ease forwards;
 }
-.img-caption:after{
-  display: block;
-    width: 68%;
-    height: 100%;
+.Gallery .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #ffffff; /* Grey text */
+  width: 71%; /* Full width */
+  bottom: 10%;
+  height: 20%;
+  padding: 2px; /* Some padding */
+  cursor: pointer;
 }
-.name{
-  padding-top: -45px;
-}
-.designation{
-  padding-top: -10px;
-}
-.img-gallery {
-	margin: 2px;
-  flex: 0 1 calc(20% - 50px);
-  min-width:140px;
-	position: relative;
-	overflow: hidden;
-	box-sizing: border-box;
-  left: 5px;
-	cursor: pointer;
-	opacity:50%;
-	-webkit-animation: imgGallerySlideIn .65s .15s ease forwards;
-	animation: imgGallerySlideIn .65s .15s ease forwards;
-}
+
