@@ -180,6 +180,16 @@ p{
   }
 
 }
+@media (min-width:460px) and (max-width:481px){
+  .roc-box{
+    left: -1.7rem;
+    top: 9rem;
+  }
+  .flower-box{
+    left: -0.5rem;
+    top: 9rem;
+  }
+}
 @media (max-width:460px){
   .roc-box{
     left: -1.7rem;
