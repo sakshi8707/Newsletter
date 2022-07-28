@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;486;700&display=swap'); 
+
+body{
+  background-image: url(./images/bg-img.jpg);
+  background-size: cover;
+}
+
+.container{
+  margin-top: 3rem;
+}
+
+.card{
+  max-width: 20vw;
+  max-height: 28vh;
+  border-radius: 1rem;
+  margin: 2rem;
+  text-align: center;
+  border: transparent;
+  box-shadow: 10.6104px 10.6104px 10.6104px rgba(0, 0, 0, 0.25);;
+}
+
+
+.card-title{
+  font-family: 'Dancing script';
+  font-size: 1.6rem;
+}
+
+.card-text{
+  font-family: 'Lora';
+}
+
+.play-box{
+  left: -1rem;
+  top: -6.8rem;
+}
+
+.play-box img{
+  width: 15rem;
+  height: 15rem;
+}
+
+.basketball-box{
+  left: -4.5rem;
+  top: -5rem;
+}
+
+.basketball-box img{
+  width: 12rem;
+  height: 12rem;
+}
+
+.tc-box{
+  left: -2.8rem;
+  top: -3.5rem;
+}
+
+.tc-box img{
+  width: 8.5rem;
+  height: 8.5rem;
+}
+
+.canteen-box{
+  left: -2rem;
+  top: -3.3rem;
+}
+
+.canteen-box img{
+  width: 9rem;
+  height: 9rem;
+}
+
+.classroom-box{
+  left: -2rem;
+  top: -3.5rem;
+}
+
+.classroom-box img{
+  width: 8rem;
+  height: 8rem;
+}
+
+.quad-box{
+  left: -2.5rem;
+  top: -3.6rem;
+}
+
+.quad-box img{
+  width: 9.5rem;
+  height: 9.5rem;
+}
+
+.btn{
+  left: 6rem;
+  top: -6rem;
+  
+}
+
+.btn-img{
+  width: 15rem;
+  height: 15rem;
+}
