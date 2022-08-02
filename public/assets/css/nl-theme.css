@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+:root {
+	--light_brown:  #A9603D; /* before hover */
+	--dark_brown:  #94441F; /* after hover */
+	--body_font:  'Lora', sans-serif;
+	--desg_font: 'Delius', cursive;
+	--header_font: 'Lobster', cursive;
+	--name_font: 'Dancing Script', cursive;
+}
