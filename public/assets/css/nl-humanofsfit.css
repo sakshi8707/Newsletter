@@ -1,0 +1,96 @@
+
+.container{
+    /* background-color: palegoldenrod; */
+    background-attachment: fixed;
+    background-size:100% 100%;
+    width:100%;
+    /* height: 660px;  */
+  }
+  /* body{
+    background-image: url('../image/bg-image.jpg');
+  } */
+  .name{
+    font-family: "Dancing Script";
+    font-weight: normal;
+    color: #000000;
+    font-size: 31px;
+  }
+  .paragraph{
+    font-size: 20px;
+    font-family: lora;
+    padding-left:20px;
+    color: #000000;
+  }
+  .post {
+    font-weight: normal;
+    /* font-weight:bolder; */
+    font-size: 17px;
+    color: #000000;
+  }
+  .center{
+    height: 700px auto;
+    width: 1295px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .Border-outside {
+    border: 15px solid white;
+  }
+  
+  /* .Border{
+   border:4px solid #f2a682;
+  } */
+  
+  .Border-top{
+   border-top: 4px solid #f2a682;
+   
+  }
+   .Border-top {
+  
+  }
+  .Border-bottom{
+   border-bottom: 4px solid #f2a682;
+  }
+  .Border-left{
+   border-left: 4px solid #f2a682;
+  }
+  .Border-right{
+   border-right: 4px solid #f2a682;
+  }
+  .Border-img{
+    border:8px solid #584e48;
+  }
+  .tap-image {
+    /* transform: scaleX(1.5); */
+    position: relative;
+    left: -32px;
+    top: -320px;
+    transform: rotate(313deg);
+  }
+  .Person-img{
+  height: 5rem ;
+  width: 18rem;
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 560px) {
+    html {
+       
+    }
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 576px) {
+    .Container {
+      width: 100%;
+      padding-left: 23px;
+      background-color: red;
+      flex-direction: row-reverse;
+    }
+    .Paragraph {
+      width: 100%;
+      background-color: green;
+      flex-direction: row-reverse;
+    }
+  }
