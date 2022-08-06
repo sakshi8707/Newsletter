@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;486;700&display=swap'); 
+
+body{
+  background-image: url(./images/bg-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.wrapper {
+    max-width: auto;
+    margin: 3rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+div:nth-of-type(odd){
+    grid-row: 2;
+}
+
+.card-canteen{
+    grid-column: 1;
+}
+.card-basketball{
+    grid-column: 2;
+}
+.card-classroom{
+    grid-column: 3;   
+}
+.card-tc{
+    grid-column: 4;   
+}
+.card-quad{
+    grid-column: 5;
+}
+
+.card{
+    width:auto;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 10.6104px 10.6104px 10.6104px rgba(0, 0, 0, 0.25);
+}
+
+.card-title{
+    font-family: 'Dancing script';
+    font-size: 1.5rem;
+}
+
+.card-text{
+    font-family: 'Lora';
+    font-size: 1rem;
+}
+
