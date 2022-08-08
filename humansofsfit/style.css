@@ -5,120 +5,114 @@ body{
   background-image: url(./images/bg-img.jpg);
   background-size: cover;
   background-attachment: fixed;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
-body::-webkit-scrollbar{
-  display: none;
+.scrolling-wrapper {
+    max-width: auto;
+    margin: 3rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
-.container-fluid{
-  margin-left: 3rem;
-  margin-top: 3rem;
+div:nth-of-type(odd){
+    grid-row: 2;
 }
 
-
-.card-low{
-  top: 32vh;
-  max-width: 17vw;
-  max-height: 28vh;
-  border-radius: 1rem;
-  text-align: center;
-  border: transparent;
-  box-shadow: 10.6104px 10.6104px 10.6104px rgba(0, 0, 0, 0.25);;
+.card-canteen{
+    grid-column: 1;
+}
+.card-basketball{
+    grid-column: 2;
+}
+.card-classroom{
+    grid-column: 3;   
+}
+.card-tc{
+    grid-column: 4;   
+}
+.card-quad{
+    grid-column: 5;
 }
 
-.card-high{
-  max-width: 17vw;
-  max-height: 28vh;
-  border-radius: 1rem;
-  text-align: center;
-  border: transparent;
-  box-shadow: 10.6104px 10.6104px 10.6104px rgba(0, 0, 0, 0.25);;
+.card{
+    min-width: 16rem;
+    min-height: 10rem;
+    border-radius: 1rem;
+    border: none;
+    margin: 1rem;
+    box-shadow: 10.6104px 10.6104px 10.6104px rgba(0, 0, 0, 0.25);
+    display: inline-block;
 }
 
 .card-title{
-  font-family: 'Dancing script';
-  font-size: 1.5rem;
+    font-family: 'Dancing script';
+    font-size: 1.5rem;
 }
 
 .card-text{
-  font-family: 'Lora';
-  font-size: 1rem;
-}
-
-.basketball-box{
-  left: -4rem;
-  top: -4.3rem;
-}
-
-.basketball-box img{
-  width: 9rem;
-  height: 9rem;
-}
-
-.tc-box{
-  left: -2.8rem;
-  top: -3.5rem;
-}
-
-.tc-box img{
-  width: 8.5rem;
-  height: 8.5rem;
+    font-family: 'Lora';
+    font-size: 1rem;
 }
 
 .canteen-box{
-  left: -1.6rem;
-  top: -2.8rem;
+    left: -1.6rem;
+    top: -2.8rem;
 }
+  
+ .canteen-box img{
+    width: 8rem;
+    height: 8rem;
+  }
 
-.canteen-box img{
-  width: 8rem;
-  height: 8rem;
+.basketball-box{
+    left: -4rem;
+    top: -3.5rem;
 }
+  
+  .basketball-box img{
+    width: 9rem;
+    height: 9rem;
+  }
 
 .classroom-box{
-  left: -2rem;
-  top: -3.5rem;
+    left: -2rem;
+    top: -3.5rem;
 }
-
-.classroom-box img{
-  width: 8rem;
-  height: 8rem;
+  
+  .classroom-box img{
+    width: 8rem;
+    height: 8rem;
+  }
+  
+.tc-box{
+    left: -2.8rem;
+    top: -3.3rem;
 }
+  
+  .tc-box img{
+    width: 8rem;
+    height: 8rem;
+  }
 
 .quad-box{
-  left: -2.5rem;
-  top: -3.6rem;
+    left: -2.5rem;
+    top: -3.6rem;
 }
+  
+  .quad-box img{
+    width: 9.5rem;
+    height: 9.5rem;
+  }
 
-.quad-box img{
-  width: 9.5rem;
-  height: 9.5rem;
-}
+  @media (max-width: 996px) {
+    .scrolling-wrapper{
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .scrolling-wrapper::-webkit-scrollbar{
+        display: none;
 
-.btn{
-  left: 5rem;
-  top: -7rem; 
-}
-
-.btn-img{
-  width: 15rem;
-  height: 15rem;
-}
-
-.vl-short{
-  border-left: 3px solid rgb(0, 0, 0);
-  height: 20vh;
-  position: absolute;
-  left: 50%;
-  top: 60vh;
-}
-
-.vl-long{
-  border-left: 3px solid rgb(0, 0, 0);
-  height: 52vh;
-  position: absolute;
-  left: 50%;
-  top: 28vh;
-}
+    }
+  }
