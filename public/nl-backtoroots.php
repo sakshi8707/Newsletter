@@ -14,11 +14,11 @@
       <div class="container m-0 p-0">
         <img src="./assets/img/newsletter_img/stage1.jpg" alt="" class="img-fluid btr_img">
         <div class="container caption-box p-2">
-          <h3 class="text-center btr-name">Mr. June Osborn (Batch of 2005) in prayas</h3>
+          <h3 class="text-center btr-name">Mr. Hansel Dsouza (CMPN 2004) in Prayas</h3>
         </div>
       </div>      
       <div class="d-flex align-items-center btr-main-content p-4  m-0" id="content-bg">
-        <p class="text-justify btr-para font-weight-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate illum debitis rerum modi culpa! Nemo totam nam soluta! Tenetur accusantium corrupti odit adipisci sit facere voluptatibus cupiditate eum autem reiciendis repellendus dolorem, obcaecati a consequatur voluptates, aperiam ipsa impedit alias omnis quidem dignissimos. Voluptatem corporis eos quae minus rem sed repellendus voluptates amet perferendis non delectus, deserunt facere corrupti fuga mollitia nisi veniam adipisci, minima rerum tempora? Minima praesentium laboriosam voluptatibus. Aspernatur id autem adipisci delectus debitis nihil repudiandae quo eum et </p>
+        <p class="text-justify btr-para font-weight-normal">St. Francis Institute of Technology (SFIT) conducts Prayas, an opportunity for the FE students to bring forward their projects, every year as an annual tradition. Prayas 2022 was effectively organised by the entire FE department. The event was conducted on the 18th of May 2022. The chief guest for this year was none other than our very own alumni, Mr. Hansel Dsouza, who graduated in the year 2004. Mr. Hansel has worked in both domestic and international roles with various organizations. Today, he has made a mark in the Indian Payments Industry and works in leadership roles with some of the largest banks in India. He currently works as a Director for Embeddable Banking for Zeta.</p>
         <div class="btr-roc-box position-relative"> 
           <div class="position-absolute">
             <img src="./assets/img/newsletter_img/rocket.png" alt="" class=" p-0" id="rocket" >
@@ -34,13 +34,13 @@
             <img src="./assets/img/newsletter_img/bulb.png" alt="" class="p-0" id="bulb">
           </div>
         </div>
-        <p class="text-justify btr-para font-weight-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate illum debitis rerum modi culpa! Nemo totam nam soluta! Tenetur accusantium corrupti odit adipisci sit facere voluptatibus cupiditate eum autem reiciendis repellendus dolorem, obcaecati a consequatur voluptates, aperiam ipsa impedit alias omnis quidem dignissimos. Voluptatem corporis eos quae minus rem sed repellendus voluptates amet perferendis non delectus, deserunt facere corrupti fuga mollitia nisi veniam adipisci, minima rerum tempora? Minima praesentium laboriosam voluptatibus. Aspernatur id autem adipisci delectus debitis nihil repudiandae quo eum et </p>   
+        <p class="text-justify btr-para font-weight-normal">St. Francis Institute of Technology (SFIT) has launched its first-ever female-centric technical community 'Techess'. The Techess Community in collaboration with the IEEE SFIT Student Branch organised their first Flagship event, InQUIZitive on the 9th of April 2022. InQUIZitive is a web technical quiz competition whose tagline was “Discover the prodigy among us”. For this event, the chief guest was the honourable Ms. Joann Martis. Ms. Joann is an alumnus who graduated in 2005. She is currently a technical lead on CMATS (Civil-Military Air Traffic System) working towards building a unified system that can seamlessly provide air traffic controllers for both, civil and military, with everything they need to protect and manage our skies.</p>   
       </div>
 
       <div class="container m-0 p-0">
         <img src="./assets/img/newsletter_img/stage2.jpg" alt="" class="img-fluid btr_img">
         <div class="container h-2 caption-box p-2">
-          <h3 class="text-center btr-name">Mr. June Osborn (Batch of 2005) in prayas</h3>
+          <h3 class="text-center btr-name">Ms. Joann Martis (INFT 2004) in InQUIZitive</h3>
         </div>
       </div> 
     </div>
@@ -49,11 +49,11 @@
       <div class="container m-0 p-0">
         <img src="./assets/img/newsletter_img/stage1.jpg" alt="" class="img-fluid btr_img">
         <div class="container h-2 caption-box p-2">
-          <h3 class="text-center btr-name">Mr. June Osborn (Batch of 2005) in prayas</h3>
+          <h3 class="text-center btr-name">Mr. Sachin Kamble (INFT 2003) in Republic Day</h3>
         </div>
       </div>
       <div class="d-flex align-items-center btr-main-content p-4 m-0">
-        <p class="text-justify btr-para font-weight-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate illum debitis rerum modi culpa! Nemo totam nam soluta! Tenetur accusantium corrupti odit adipisci sit facere voluptatibus cupiditate eum autem reiciendis repellendus dolorem, obcaecati a consequatur voluptates, aperiam ipsa impedit alias omnis quidem dignissimos. Voluptatem corporis eos quae minus rem sed repellendus voluptates amet perferendis non delectus, deserunt facere corrupti fuga mollitia nisi veniam adipisci, minima rerum tempora? Minima praesentium laboriosam voluptatibus. Aspernatur id autem adipisci delectus debitis nihil repudiandae quo eum et </p>
+        <p class="text-justify btr-para font-weight-normal">St. Francis Institute of Technology (SFIT) celebrates Republic Day every year. This year's celebration was hosted by the NSS team on 26th January 2022. Songs were sung and quizzes were organised to evoke a feeling of patriotism among the audience. The event was graced by our notable alumni, Mr. Sachin Kamble, as the chief guest. Mr. Sachin is an alumnus who graduated in the year 2003. He is a media professional who specialises in e-commerce, big data, business strategy, content licensing and commissioning. He has previously worked at reputed media companies like Zee5, Viu and Star Network. Currently, he is working as the Head of Content & Partnership at Gaana.</p>
         <div class="btr-flower-box position-relative">
           <div class="position-absolute">
             <img src="./assets/img/newsletter_img/flower.png" alt="" class="p-0" id="flower">
