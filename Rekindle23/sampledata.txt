@@ -1,0 +1,4 @@
+INSERT INTO 'users' (1, 235244, 'veg', 'cmpn', 'fname', 'lname');
+INSERT INTO 'users' (2, 235245, 'veg', 'cmpn', 'fname', 'lname');
+INSERT INTO 'users' (3, 235246, 'veg', 'cmpn', 'fname', 'lname');
+INSERT INTO 'users' (4, 235247, 'veg', 'cmpn', 'fname', 'lname');
